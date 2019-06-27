@@ -234,7 +234,7 @@ define([
             wormholesEOL: (rowData.hasOwnProperty('wormholesEOL')) ? rowData.wormholesEOL | 0 : 1,
             endpointsBubble: (rowData.hasOwnProperty('endpointsBubble')) ? rowData.endpointsBubble | 0 : 1,
             connections: (rowData.hasOwnProperty('connections')) ? rowData.connections.value | 0 : 0,
-            flag: (rowData.hasOwnProperty('flag')) ? rowData.flag.value : 'shortest'
+            flag: (rowData.hasOwnProperty('flag')) ? rowData.flag.value : 'secure'
         };
     };
 
@@ -1339,10 +1339,13 @@ define([
         let promiseStore = MapUtil.getLocaleData('map', mapId);
         promiseStore.then(function(dataStore){
             // selected systems (if already stored)
-            let systemsTo = [{
-                systemId: 30000142,
-                name: 'Jita'
-            }];
+            let systemsTo = [
+                {systemId: 30000142,name: 'Jita'},
+                {name:"Amarr",systemId:30002187},
+                {name:"Dodixie",systemId:30002659},
+                {name:"Rens",systemId:30002510},
+                {name:"Hek",systemId:30002510},
+            ];
 
             if(
                 dataStore &&
