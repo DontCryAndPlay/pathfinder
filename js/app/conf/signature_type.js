@@ -336,6 +336,7 @@ define(['jquery'], ($) => {
                     3: 'Unexceptional Frontier Deposit', //*
                     4: 'Average Frontier Deposit', //*
                     5: 'Rarified Core Deposit' //*
+                    6: 'Exceptional Core Deposit' //*
                 },
                 7: {    // Ghost
                     1: 'Superior Blood Raider Covert Research Facility' //*
