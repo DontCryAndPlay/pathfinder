@@ -335,11 +335,12 @@ define(['jquery'], ($) => {
                     2: 'Common Perimeter Deposit', //*
                     3: 'Unexceptional Frontier Deposit', //*
                     4: 'Average Frontier Deposit', //*
-                    5: 'Rarified Core Deposit' //*
+                    5: 'Rarified Core Deposit', //*
                     6: 'Exceptional Core Deposit' //*
                 },
                 7: {    // Ghost
-                    1: 'Superior Blood Raider Covert Research Facility' //*
+                    1: 'Superior Blood Raider Covert Research Facility', //*
+                    2: 'Superior Angel Covert Research Facility' //*
                 }
             },
             12: {   // Thera wormhole
