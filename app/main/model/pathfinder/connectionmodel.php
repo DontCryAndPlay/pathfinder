@@ -235,7 +235,7 @@ class ConnectionModel extends AbstractMapTrackingModel {
                     $this->type = ['stargate'];
                 }else{
                     $this->scope = 'wh';
-                    $this->type = ['wh_fresh'];
+                    $this->type = ['wh_fresh', 'wh_jump_mass_l'];
                 }
             }
         }
